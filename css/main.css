@@ -1,0 +1,21 @@
+/* 2. ---Mobile Library Styles--- */
+.box:hover {
+    background-color: rgb(61, 88, 88);
+    color: black;
+}
+
+#image {
+    display: hidden;
+}
+
+/* 3. ---Tablet Library Styles--- */
+@media screen and (min-width: 768px) {
+
+}
+
+/* 4. ---Desktop Library Styles--- */
+@media screen and (min-width: 1200px) {
+    #image {
+        display: inline;
+    }
+}
