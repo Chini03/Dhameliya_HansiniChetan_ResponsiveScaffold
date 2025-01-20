@@ -8,10 +8,38 @@
     display: none;
 }
 
+#hero-section {
+    height: 240px;
+}
+
+#products-section div {
+    height: 80px;
+}
+
+#service-section div {
+    height: 120px;
+}
+
+footer {
+    height: 160px;
+}
+
 /* 3. ---Tablet Library Styles--- */
 @media screen and (min-width: 768px) {
     #image {
         display: none;
+    }
+
+    #products-section div {
+        height: 100px;
+    }
+
+    #service-section div {
+        height: 132px;
+    }
+    
+    footer {
+        height: 200px;
     }
 }
 
@@ -19,5 +47,21 @@
 @media screen and (min-width: 1200px) {
     #image {
         display: inline;
+    }
+
+    #hero-section {
+        height: 400px;
+    }
+
+    #products-section div {
+        height: 120px;
+    }
+
+    #service-section div {
+        height: 140px;
+    }    
+
+    footer {
+        height: 240px;
     }
 }
